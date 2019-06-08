@@ -1,0 +1,22 @@
+{
+  "default": {
+    "apiHost": "",
+    "isSandbox":  false 
+  },
+  "development": {
+    "apiHost": "http://localhost:8080",
+    "isSandbox": false
+  },
+  "test-Mac": {
+    "apiHost": "http://localhost:3000",
+    "isSandbox": false
+  },
+  "test": {
+    "apiHost": "http://test.trubble.net",
+    "isSandbox": false
+  },
+  "production": {
+    "apiHost": "https://app.trubble.net",
+    "isSandbox": false
+  }
+}

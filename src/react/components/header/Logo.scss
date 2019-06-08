@@ -1,0 +1,15 @@
+@import "~@styles/palette.scss";
+
+.titleContainer {
+  display: inline-block;
+  vertical-align: middle;    
+  margin: 0;
+  padding: 0; 
+  line-height: 42px;
+}
+
+.titleText {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $brand-colour1; 
+}

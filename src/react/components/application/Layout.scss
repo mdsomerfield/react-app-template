@@ -1,0 +1,16 @@
+@import "~@styles/palette.scss";
+
+.container {
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding-top: 66px;
+  background: #F8F8F8;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;  
+  height: 100%;
+  width: 100%;
+}

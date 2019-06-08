@@ -1,0 +1,27 @@
+@import "~@styles/palette.scss";
+
+.container {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: block;
+  background: white;
+  border-bottom: 2px solid $brand-colour1;
+  box-shadow: 2px 2px 4px $border-medium-grey;
+  display: flex;
+  padding: 4px 8px;
+  line-height: 56px;
+}
+
+.logo {
+  flex: 1 1 100%;  
+}
+
+.searchTool {
+  flex: 0 0 260px;
+}
+
+.utilities {
+  flex: 0 0 100px;
+}

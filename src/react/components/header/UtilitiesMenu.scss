@@ -1,0 +1,27 @@
+@import "~@icons/index.scss";
+
+.settingsContainer {
+  vertical-align: middle;
+  display: inline-block;
+  position: relative;
+}
+
+.settingsLink {
+  @include iconButton(20px, 20px, 20px, 20px);  
+  background-image: $iconCogBlack;  
+  vertical-align: middle;
+  margin-left: 16px;
+}
+
+.accountContainer {
+  vertical-align: middle;
+  display: inline-block;
+  position: relative;
+}
+
+.accountLink {
+  @include iconButton(20px, 20px, 20px, 20px);  
+  background-image: $iconUserBlack;  
+  vertical-align: middle;
+  margin-left: 16px;
+}

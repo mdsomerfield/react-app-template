@@ -1,0 +1,49 @@
+{
+  "name": "trubble-web-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config ./webpack.dev.config.js --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trubble-net/trubble-web-app.git"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "classnames": "^2.2.6",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-http-proxy": "^1.2.0",
+    "react-router-dom": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^2.1.1",
+    "file-loader": "^3.0.1",
+    "node-sass": "^4.12.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-konva": "^16.8.7-2",
+    "react-redux": "^7.0.3",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
+  },
+  "author": "Mark Somerfield",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trubble-net/trubble-web-app/issues"
+  },
+  "homepage": "https://github.com/trubble-net/trubble-web-app#readme"
+}

@@ -1,0 +1,15 @@
+$iconCogBlack: url('~@icons/cog_black.svg');
+$iconSearchBlack: url('~@icons/search_black.svg');
+$iconUserBlack: url('~@icons/user_black.svg');
+
+@mixin iconButton($iconWidth, $iconHeight, $buttonWidth, $buttonHeight) {
+  display: inline-block;
+  background: none;
+  border: none;
+  box-shadow: none;
+  width: $buttonWidth;
+  height: $buttonHeight;
+  background-size: $iconWidth $iconHeight;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

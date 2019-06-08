@@ -1,0 +1,33 @@
+@import "~@styles/palette.scss";
+
+.container {
+  position: absolute;
+  right: -24px;
+  top: 56px;
+  background: white;
+  padding: 4px;
+  border: 1px solid $border-medium-grey;
+  line-height: 24px;
+}
+
+.list {
+  padding: none;
+  margin: none;
+}
+
+.listItem {
+  list-style: none;
+  display: block;
+  padding: 4px;
+  border-bottom: 1px solid $border-light-grey;
+  min-width: 160px;  
+}
+
+.button {
+  color: $brand-colour1; 
+  background: none;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+

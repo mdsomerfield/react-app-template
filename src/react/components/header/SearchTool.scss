@@ -1,0 +1,26 @@
+@import "~@icons/index.scss";
+
+.container {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+.input {
+  display: block;
+  height: 100%;
+  padding: 8px 8px 8px 32px;
+  border-radius: 4px;
+  font-size: 16px;
+  box-shadow: none;
+  border: 1px solid #f1f1f1;
+}
+
+.button {
+  @include iconButton(16px, 16px, 32px, 32px);  
+  background-image: $iconSearchBlack;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
