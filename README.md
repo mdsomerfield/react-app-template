@@ -28,9 +28,4 @@ This will start webpack dev server on port 8081. If you navigate to http://local
 
 ### Running in production mode
 
-Run the commands:
-
-```
-npm build #TODO
-npm start
-```
+Not yet configured
